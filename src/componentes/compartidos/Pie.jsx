@@ -1,6 +1,6 @@
 function Pie() {
   return (
-    <footer>
+    <footer className="text-red-500">
       <small>Todos los derechos reservados</small>
     </footer>
   );

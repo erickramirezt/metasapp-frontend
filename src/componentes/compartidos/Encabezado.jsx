@@ -1,10 +1,12 @@
+import './Encabezado.css';
+
 function Encabezamiento() {
   return (
-    <div>
-      <div>
-        <a href="/">Metas App</a>
+    <div className="encabezado">
+      <div className="contenedor">
+        <a href="/" className='titulo'>Metas App</a>
       </div>
-      <nav className="flex">
+      <nav className="vinculo">
         <a href="/perfil">Perfil</a>
       </nav>
     </div>

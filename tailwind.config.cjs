@@ -4,7 +4,14 @@ module.exports = {
   content: ["./src/**/*.jsx"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        sm: "8px",
+        md: "16px",
+        lg: "24px",
+        xl: "48px",
+      }
+    },
   },
   variants: {},
   plugins: [],
