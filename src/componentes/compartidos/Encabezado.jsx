@@ -8,7 +8,7 @@ function Encabezamiento() {
         <a href="/" className={estilos.titulo}>Metas App</a>
       </div>
       <nav className={estilos.vinculo}>
-        <Vinculo href="/perfil" texto='Perfil'/>
+        <Vinculo to="/perfil" texto='Perfil'/>
       </nav>
     </header>
   );
