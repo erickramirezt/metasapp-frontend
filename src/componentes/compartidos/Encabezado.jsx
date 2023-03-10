@@ -1,15 +1,16 @@
-import './Encabezado.css';
+import Vinculo from './Vinculo';
+import estilos from './Encabezado.module.css';
 
 function Encabezamiento() {
   return (
-    <div className="encabezado">
-      <div className="contenedor">
-        <a href="/" className='titulo'>Metas App</a>
+    <header className={estilos.encabezado}>
+      <div className={estilos.contenedor}>
+        <a href="/" className={estilos.titulo}>Metas App</a>
       </div>
-      <nav className="vinculo">
-        <a href="/perfil">Perfil</a>
+      <nav className={estilos.vinculo}>
+        <Vinculo href="/perfil" texto='Perfil'/>
       </nav>
-    </div>
+    </header>
   );
 }
 
